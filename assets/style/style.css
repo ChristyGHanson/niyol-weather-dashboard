@@ -1,0 +1,64 @@
+header {
+    padding: 60px;
+    text-align: center;
+    background: #7e0cc5;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+}
+
+nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+
+section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #7e0cc5;
+    color: #fff;
+}
+
+/* Image Placeholders */
+.sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+        background: #7e0cc5;
+    }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: #7e0cc5;
+    }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    .sample-img {
+        background-color: #e1dee3;
+    }
+}
