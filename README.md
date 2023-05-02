@@ -1,5 +1,7 @@
 # Niyol Weather
 
+![Niyol Weather screenshot](assets/images/niyol-weather-1.png)
+
 ## Description
 
 Niyol Weather is a weather site where users can see the weather forecast for cities on or near the Navajo Nation in the Greater Southwestern United States. Users can also search for different cities.
