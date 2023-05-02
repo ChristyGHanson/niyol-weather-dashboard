@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Niyol Weather</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niyol Weather</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/style/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
 </head>
+
 
 <body>
     <header>
-        <h1></h1>
+
     </header>
 
     <!-- Navbar -->
@@ -93,9 +95,53 @@
             <img src="assets/images/horizontal-view-sunrise-monument-valley-usa.jpg"
                 alt="reddish-brown-sandstone-rock-formations">
         </div>
-        <h2>Get all of your weather needs here.</h2>
     </section>
     </main>
+
+    <!-- insert -->
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-12 col-lg-3' id='city-search'>
+                <h2 class="title is-3">Search for a City</h2>
+                <hr>
+                <input class='city-input' placeholder="Search a city..."> </input>
+                <button class='btn btn-primary search-btn'>Search</button>
+                <hr>
+
+                <button class='btn btn-primary city-btn' data-place="Phoenix">Phoenix</button>
+                <button class='btn btn-primary city-btn' data-place="Albuquerque">Albuquerque</button>
+                <button class='btn btn-primary city-btn' data-place="Denver">Denver</button>
+                <button class='btn btn-primary city-btn' data-place="Gallup">Gallup</button>
+                <button class='btn btn-primary city-btn' data-place="Flagstaff">Flagstaff</button>
+                <button class='btn btn-primary city-btn' data-place="Farmington">Farmington</button>
+                <button class='btn btn-primary city-btn' data-place="Monument Valley">Monument Valley</button>
+
+            </div>
+            <div class='col-12 col-lg-9 weather-display'>
+                <div class='city-display sunny-hero'>
+                    <h2 id='city-name'></h2>
+                    <p>Temp: <span id="current-temp"></span></p>
+                    <p>Wind: <span id="current-wind"></span></p>
+                    <p>Humidity: <span id="current-humidity"></span></p>
+
+                </div>
+                <div class='weekly-forecast'>
+
+                    <div class='weather-block' data-index='0'>
+
+                    </div>
+                    <div class='weather-block ' data-index='1'></div>
+                    <div class='weather-block ' data-index='2'></div>
+                    <div class='weather-block ' data-index='3'></div>
+                    <div class='weather-block ' data-index='4'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
 
     <!-- Footer -->
     <footer>

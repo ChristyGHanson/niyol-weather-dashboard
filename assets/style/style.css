@@ -1,13 +1,13 @@
 header {
     padding: 60px;
     text-align: center;
-    background: #7e0cc5;
+    background: #023047;
     color: #fff;
 }
 
 nav {
     display: flex;
-    background-color: #ffffff;
+    background-color: #ffb703;
 }
 
 nav p {
@@ -26,10 +26,12 @@ section {
     padding: 20px;
 }
 
+strong-heading {}
+
 footer {
     padding: 20px;
     text-align: center;
-    background: #7e0cc5;
+    background: #ffb703;
     color: #fff;
 }
 
@@ -45,14 +47,14 @@ footer {
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
-        background: #7e0cc5;
+        background: #023047;
     }
 }
 
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
     nav {
-        background-color: #7e0cc5;
+        background-color: #8ecae6;
     }
 }
 
